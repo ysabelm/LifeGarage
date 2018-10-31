@@ -1,15 +1,15 @@
 package com.LifeGarage;
 
 
-public class Bike extends Vehicle{
+public class Bike extends Vehicle {
 
-    public Bike(String brand, Color color, float price){
+    public Bike(String brand, Color color, float price) {
         super(brand, color, price);
     }
+    
     @Override
-    public float getPriceWithTax(){
+    public float getPriceWithTax() {
         int tax = 1;
         return price + tax;
     }
-
 }

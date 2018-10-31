@@ -6,7 +6,7 @@ import java.util.List;
 
 
 public class LifeGarage {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Garage garage = new Garage("garage1");
         Car car1 = new Car("renault", "Red", 999.9f);
 
